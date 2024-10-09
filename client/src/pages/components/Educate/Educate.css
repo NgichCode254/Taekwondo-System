@@ -1,0 +1,47 @@
+.education-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.education-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.loading-spinner {
+  display: block;
+  margin: 30px auto;
+}
+
+.video-card {
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.load-more-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .ant-list-grid .ant-list-item {
+    width: 100%;
+  }
+
+  .video-card {
+    width: 100%;
+  }
+}
